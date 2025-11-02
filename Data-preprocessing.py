@@ -72,8 +72,8 @@ cust_level["itemDescription"] = cust_level["itemDescription"].str.strip()
 cust_level
 
 transactions = [a[1]['itemDescription'].tolist() for a in list(cust_level.groupby(["Member_number"]))]
-rules = apriori(transactions = transactions, min_support = 0.002, min_Confidence = 0.05, min_lift = 3, min_length = 2)
+rules = apriori(transactions = transactions, min_support = 0.002, min_confidence = 0.05, min_lift = 3, min_length = 2)
 results = list(rules)
 # print(len(results))
 # results[0]
-results
+print(results)
