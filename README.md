@@ -191,11 +191,3 @@ Association rules indicate which items are frequently purchased together. For ex
 4. **A/B Testing Framework**: Measure impact of recommendations on sales
 5. **Deep Learning Models**: Implement sequence prediction algorithms
 6. **Dashboard Development**: Create interactive visualizations for business users
-
-## License
-
-This project is developed for educational and research purposes.
-
-## Contact
-
-For questions or collaboration opportunities, please refer to the project repository.
